@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D305AAD727FC1945009EC464 /* NebulaNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305AAD527FC1945009EC464 /* NebulaNewsTableViewCell.swift */; };
+		D305AAD827FC1945009EC464 /* NebulaNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D305AAD627FC1945009EC464 /* NebulaNewsTableViewCell.xib */; };
+		D3135E9B27FEB5580026FD47 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3135E9A27FEB5580026FD47 /* iOSDevCenters+GIF.swift */; };
+		D3135EA127FEB8A60026FD47 /* starGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3135EA027FEB8A60026FD47 /* starGif.gif */; };
+		D3142F2327FD53700003713D /* NebulaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3142F2227FD53700003713D /* NebulaData.swift */; };
+		D315B37F27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D315B37D27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.swift */; };
+		D315B38027F1A4FF00E97101 /* SolarSystemLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D315B37E27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.xib */; };
+		D31BBE9427EC666C002C08FC /* ConstellationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BBE9327EC666C002C08FC /* ConstellationViewController.swift */; };
+		D31BBE9B27EC67C9002C08FC /* NebulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BBE9A27EC67C9002C08FC /* NebulaViewController.swift */; };
+		D31BBE9E27EC67D5002C08FC /* SatelliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BBE9D27EC67D5002C08FC /* SatelliteViewController.swift */; };
+		D31BBEA727EC6ED4002C08FC /* ARPlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BBEA627EC6ED4002C08FC /* ARPlanetModel.swift */; };
+		D34FDD3528127C2D0072AB47 /* ARMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3028127C2D0072AB47 /* ARMenuController.swift */; };
+		D34FDD3628127C2D0072AB47 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3128127C2D0072AB47 /* AboutController.swift */; };
+		D34FDD3728127C2D0072AB47 /* UniverseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3228127C2D0072AB47 /* UniverseController.swift */; };
+		D34FDD3828127C2D0072AB47 /* PlaneDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3328127C2D0072AB47 /* PlaneDetectionController.swift */; };
+		D34FDD3928127C2D0072AB47 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3428127C2D0072AB47 /* PlanetController.swift */; };
+		D34FDD3B281284D20072AB47 /* ARViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3A281284D20072AB47 /* ARViewViewController.swift */; };
+		D350F29C27D705DE0095997F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350F29B27D705DE0095997F /* AppDelegate.swift */; };
+		D350F29E27D705DE0095997F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350F29D27D705DE0095997F /* SceneDelegate.swift */; };
+		D350F2A527D705E10095997F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D350F2A427D705E10095997F /* Assets.xcassets */; };
+		D350F2B927D719EF0095997F /* PlanetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350F2B827D719EF0095997F /* PlanetPageViewController.swift */; };
+		D350F2BF27D73FA90095997F /* SecondPlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350F2BE27D73FA90095997F /* SecondPlanetViewController.swift */; };
+		D350F2C227D740650095997F /* LogInSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350F2C127D740650095997F /* LogInSignUpViewController.swift */; };
+		D3524F3327D8970B00F24671 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3524F3227D8970B00F24671 /* SignUpViewController.swift */; };
+		D3524F3627D8971700F24671 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3524F3527D8971700F24671 /* SignInViewController.swift */; };
+		D36BDDE927F2C4C600AC3857 /* SkyLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDDE827F2C4C600AC3857 /* SkyLive.swift */; };
+		D3793C5D2800290F004E7ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3793C5C2800290F004E7ED6 /* Main.storyboard */; };
+		D3793C5F28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3793C5E28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift */; };
+		D38B35E928113287003D0B2C /* textures.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B35E828113287003D0B2C /* textures.scnassets */; };
+		D38B360528113395003D0B2C /* PlanetNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B360428113395003D0B2C /* PlanetNodes.swift */; };
+		D38B3608281133AB003D0B2C /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B3607281133AB003D0B2C /* PlanetModel.swift */; };
+		D38B360B281133B1003D0B2C /* UniverseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B360A281133B1003D0B2C /* UniverseNode.swift */; };
+		D38B360E281133B7003D0B2C /* UniverseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B360D281133B7003D0B2C /* UniverseModel.swift */; };
+		D3A7942727E1BE46005E0F6F /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7942627E1BE46005E0F6F /* HomePageViewController.swift */; };
+		D3A7942A27E1C1CA005E0F6F /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7942927E1C1CA005E0F6F /* HomeTabBarViewController.swift */; };
+		D3A7942D27E1C2F0005E0F6F /* NewsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7942C27E1C2EF005E0F6F /* NewsPageViewController.swift */; };
+		D3A7943027E1C306005E0F6F /* SolarSystemPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7942F27E1C306005E0F6F /* SolarSystemPageViewController.swift */; };
+		D3A7943827E1CA74005E0F6F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D3A7943727E1CA74005E0F6F /* IQKeyboardManagerSwift */; };
+		D3C8D1F127FAA1E7008190FE /* ConstellationNewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8D1F027FAA1E7008190FE /* ConstellationNewsData.swift */; };
+		D3C8D1FC27FAA860008190FE /* SpaceNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8D1FA27FAA860008190FE /* SpaceNewsTableViewCell.swift */; };
+		D3C8D1FD27FAA860008190FE /* ConstellationNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C8D1FB27FAA860008190FE /* ConstellationNewsTableViewCell.xib */; };
+		D3C8D20527FAC7AB008190FE /* DisplayDetailsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8D20427FAC7AB008190FE /* DisplayDetailsNewsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D305AAD527FC1945009EC464 /* NebulaNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaNewsTableViewCell.swift; sourceTree = "<group>"; };
+		D305AAD627FC1945009EC464 /* NebulaNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NebulaNewsTableViewCell.xib; sourceTree = "<group>"; };
+		D3135E9A27FEB5580026FD47 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		D3135EA027FEB8A60026FD47 /* starGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = starGif.gif; sourceTree = "<group>"; };
+		D3142F2227FD53700003713D /* NebulaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaData.swift; sourceTree = "<group>"; };
+		D315B37D27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemLiveTableViewCell.swift; sourceTree = "<group>"; };
+		D315B37E27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SolarSystemLiveTableViewCell.xib; sourceTree = "<group>"; };
+		D31BBE9327EC666C002C08FC /* ConstellationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationViewController.swift; sourceTree = "<group>"; };
+		D31BBE9A27EC67C9002C08FC /* NebulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaViewController.swift; sourceTree = "<group>"; };
+		D31BBE9D27EC67D5002C08FC /* SatelliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteViewController.swift; sourceTree = "<group>"; };
+		D31BBEA627EC6ED4002C08FC /* ARPlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPlanetModel.swift; sourceTree = "<group>"; };
+		D34FDD3028127C2D0072AB47 /* ARMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMenuController.swift; sourceTree = "<group>"; };
+		D34FDD3128127C2D0072AB47 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		D34FDD3228127C2D0072AB47 /* UniverseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseController.swift; sourceTree = "<group>"; };
+		D34FDD3328127C2D0072AB47 /* PlaneDetectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneDetectionController.swift; sourceTree = "<group>"; };
+		D34FDD3428127C2D0072AB47 /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
+		D34FDD3A281284D20072AB47 /* ARViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewViewController.swift; sourceTree = "<group>"; };
+		D350F29827D705DE0095997F /* The Martian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Martian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D350F29B27D705DE0095997F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D350F29D27D705DE0095997F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D350F2A427D705E10095997F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D350F2A927D705E10095997F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D350F2B827D719EF0095997F /* PlanetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetPageViewController.swift; sourceTree = "<group>"; };
+		D350F2BE27D73FA90095997F /* SecondPlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPlanetViewController.swift; sourceTree = "<group>"; };
+		D350F2C127D740650095997F /* LogInSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInSignUpViewController.swift; sourceTree = "<group>"; };
+		D3524F3227D8970B00F24671 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D3524F3527D8971700F24671 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D36BDDE827F2C4C600AC3857 /* SkyLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyLive.swift; sourceTree = "<group>"; };
+		D3793C5C2800290F004E7ED6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D3793C5E28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaSingleInfoViewController.swift; sourceTree = "<group>"; };
+		D38B35E828113287003D0B2C /* textures.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = textures.scnassets; sourceTree = "<group>"; };
+		D38B360428113395003D0B2C /* PlanetNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetNodes.swift; sourceTree = "<group>"; };
+		D38B3607281133AB003D0B2C /* PlanetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		D38B360A281133B1003D0B2C /* UniverseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseNode.swift; sourceTree = "<group>"; };
+		D38B360D281133B7003D0B2C /* UniverseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseModel.swift; sourceTree = "<group>"; };
+		D3A7942627E1BE46005E0F6F /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		D3A7942927E1C1CA005E0F6F /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		D3A7942C27E1C2EF005E0F6F /* NewsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageViewController.swift; sourceTree = "<group>"; };
+		D3A7942F27E1C306005E0F6F /* SolarSystemPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemPageViewController.swift; sourceTree = "<group>"; };
+		D3C8D1F027FAA1E7008190FE /* ConstellationNewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationNewsData.swift; sourceTree = "<group>"; };
+		D3C8D1FA27FAA860008190FE /* SpaceNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNewsTableViewCell.swift; sourceTree = "<group>"; };
+		D3C8D1FB27FAA860008190FE /* ConstellationNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConstellationNewsTableViewCell.xib; sourceTree = "<group>"; };
+		D3C8D20427FAC7AB008190FE /* DisplayDetailsNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDetailsNewsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D350F29527D705DE0095997F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A7943827E1CA74005E0F6F /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D313887B27E2F3870093F9D3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D350F2B827D719EF0095997F /* PlanetPageViewController.swift */,
+				D350F2BE27D73FA90095997F /* SecondPlanetViewController.swift */,
+				D350F2C127D740650095997F /* LogInSignUpViewController.swift */,
+				D3524F3527D8971700F24671 /* SignInViewController.swift */,
+				D3524F3227D8970B00F24671 /* SignUpViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D313887D27E2F3A00093F9D3 /* Cell Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37D949127E2F408009D6D30 /* Table View Files */,
+			);
+			path = "Cell Files";
+			sourceTree = "<group>";
+		};
+		D31BBE9227EC65CE002C08FC /* HomePageButtons */ = {
+			isa = PBXGroup;
+			children = (
+				D31BBE9327EC666C002C08FC /* ConstellationViewController.swift */,
+				D31BBE9A27EC67C9002C08FC /* NebulaViewController.swift */,
+				D31BBE9D27EC67D5002C08FC /* SatelliteViewController.swift */,
+				D3C8D1F327FAA2D5008190FE /* HomeViewControllers */,
+			);
+			path = HomePageButtons;
+			sourceTree = "<group>";
+		};
+		D34FDD2F28127C2D0072AB47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D34FDD3A281284D20072AB47 /* ARViewViewController.swift */,
+				D34FDD3028127C2D0072AB47 /* ARMenuController.swift */,
+				D34FDD3128127C2D0072AB47 /* AboutController.swift */,
+				D34FDD3228127C2D0072AB47 /* UniverseController.swift */,
+				D34FDD3328127C2D0072AB47 /* PlaneDetectionController.swift */,
+				D34FDD3428127C2D0072AB47 /* PlanetController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D350F28F27D705DE0095997F = {
+			isa = PBXGroup;
+			children = (
+				D350F29A27D705DE0095997F /* SpaceApp */,
+				D350F29927D705DE0095997F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D350F29927D705DE0095997F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D350F29827D705DE0095997F /* The Martian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D350F29A27D705DE0095997F /* SpaceApp */ = {
+			isa = PBXGroup;
+			children = (
+				D350F29B27D705DE0095997F /* AppDelegate.swift */,
+				D350F29D27D705DE0095997F /* SceneDelegate.swift */,
+				D38B35E828113287003D0B2C /* textures.scnassets */,
+				D3524F1427D8744300F24671 /* Model */,
+				D350F2B027D713960095997F /* Controllers */,
+				D3524F3827D89F6C00F24671 /* Animations */,
+				D350F2A427D705E10095997F /* Assets.xcassets */,
+				D3793C5C2800290F004E7ED6 /* Main.storyboard */,
+				D350F2A927D705E10095997F /* Info.plist */,
+			);
+			path = SpaceApp;
+			sourceTree = "<group>";
+		};
+		D350F2B027D713960095997F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D34FDD2F28127C2D0072AB47 /* Controller */,
+				D313887B27E2F3870093F9D3 /* View Controllers */,
+				D3E71D2E27EAD13500DA9CA0 /* Tabbar Controller */,
+				D313887D27E2F3A00093F9D3 /* Cell Files */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3524F1427D8744300F24671 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D38B360228113382003D0B2C /* ARPLanets */,
+				D31BBEA627EC6ED4002C08FC /* ARPlanetModel.swift */,
+				D36BDDE827F2C4C600AC3857 /* SkyLive.swift */,
+				D3C8D1F027FAA1E7008190FE /* ConstellationNewsData.swift */,
+				D3142F2227FD53700003713D /* NebulaData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3524F3827D89F6C00F24671 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				D3135EA027FEB8A60026FD47 /* starGif.gif */,
+				D3135E9A27FEB5580026FD47 /* iOSDevCenters+GIF.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		D37D949127E2F408009D6D30 /* Table View Files */ = {
+			isa = PBXGroup;
+			children = (
+				D315B37D27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.swift */,
+				D315B37E27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.xib */,
+				D3C8D1FA27FAA860008190FE /* SpaceNewsTableViewCell.swift */,
+				D3C8D1FB27FAA860008190FE /* ConstellationNewsTableViewCell.xib */,
+				D305AAD527FC1945009EC464 /* NebulaNewsTableViewCell.swift */,
+				D305AAD627FC1945009EC464 /* NebulaNewsTableViewCell.xib */,
+			);
+			path = "Table View Files";
+			sourceTree = "<group>";
+		};
+		D38B360228113382003D0B2C /* ARPLanets */ = {
+			isa = PBXGroup;
+			children = (
+				D38B360428113395003D0B2C /* PlanetNodes.swift */,
+				D38B3607281133AB003D0B2C /* PlanetModel.swift */,
+				D38B360A281133B1003D0B2C /* UniverseNode.swift */,
+				D38B360D281133B7003D0B2C /* UniverseModel.swift */,
+			);
+			path = ARPLanets;
+			sourceTree = "<group>";
+		};
+		D3C8D1F327FAA2D5008190FE /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3793C5E28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		D3C8D20327FAC778008190FE /* TabItemPage */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8D20427FAC7AB008190FE /* DisplayDetailsNewsViewController.swift */,
+			);
+			path = TabItemPage;
+			sourceTree = "<group>";
+		};
+		D3E71D2E27EAD13500DA9CA0 /* Tabbar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3A7942927E1C1CA005E0F6F /* HomeTabBarViewController.swift */,
+				D3A7942627E1BE46005E0F6F /* HomePageViewController.swift */,
+				D3A7942C27E1C2EF005E0F6F /* NewsPageViewController.swift */,
+				D3A7942F27E1C306005E0F6F /* SolarSystemPageViewController.swift */,
+				D3C8D20327FAC778008190FE /* TabItemPage */,
+				D31BBE9227EC65CE002C08FC /* HomePageButtons */,
+			);
+			path = "Tabbar Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D350F29727D705DE0095997F /* The Martian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D350F2AC27D705E10095997F /* Build configuration list for PBXNativeTarget "The Martian" */;
+			buildPhases = (
+				D350F29427D705DE0095997F /* Sources */,
+				D350F29527D705DE0095997F /* Frameworks */,
+				D350F29627D705DE0095997F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Martian";
+			packageProductDependencies = (
+				D3A7943727E1CA74005E0F6F /* IQKeyboardManagerSwift */,
+			);
+			productName = SpaceApp;
+			productReference = D350F29827D705DE0095997F /* The Martian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D350F29027D705DE0095997F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D350F29727D705DE0095997F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D350F29327D705DE0095997F /* Build configuration list for PBXProject "The Martian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D350F28F27D705DE0095997F;
+			packageReferences = (
+				D3A7943627E1CA74005E0F6F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = D350F29927D705DE0095997F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D350F29727D705DE0095997F /* The Martian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D350F29627D705DE0095997F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3793C5D2800290F004E7ED6 /* Main.storyboard in Resources */,
+				D305AAD827FC1945009EC464 /* NebulaNewsTableViewCell.xib in Resources */,
+				D38B35E928113287003D0B2C /* textures.scnassets in Resources */,
+				D350F2A527D705E10095997F /* Assets.xcassets in Resources */,
+				D3C8D1FD27FAA860008190FE /* ConstellationNewsTableViewCell.xib in Resources */,
+				D315B38027F1A4FF00E97101 /* SolarSystemLiveTableViewCell.xib in Resources */,
+				D3135EA127FEB8A60026FD47 /* starGif.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D350F29427D705DE0095997F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A7942A27E1C1CA005E0F6F /* HomeTabBarViewController.swift in Sources */,
+				D3C8D20527FAC7AB008190FE /* DisplayDetailsNewsViewController.swift in Sources */,
+				D38B360E281133B7003D0B2C /* UniverseModel.swift in Sources */,
+				D3C8D1F127FAA1E7008190FE /* ConstellationNewsData.swift in Sources */,
+				D34FDD3828127C2D0072AB47 /* PlaneDetectionController.swift in Sources */,
+				D3793C5F28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift in Sources */,
+				D3C8D1FC27FAA860008190FE /* SpaceNewsTableViewCell.swift in Sources */,
+				D34FDD3528127C2D0072AB47 /* ARMenuController.swift in Sources */,
+				D36BDDE927F2C4C600AC3857 /* SkyLive.swift in Sources */,
+				D3524F3627D8971700F24671 /* SignInViewController.swift in Sources */,
+				D315B37F27F1A4FF00E97101 /* SolarSystemLiveTableViewCell.swift in Sources */,
+				D3A7942D27E1C2F0005E0F6F /* NewsPageViewController.swift in Sources */,
+				D34FDD3B281284D20072AB47 /* ARViewViewController.swift in Sources */,
+				D34FDD3728127C2D0072AB47 /* UniverseController.swift in Sources */,
+				D31BBEA727EC6ED4002C08FC /* ARPlanetModel.swift in Sources */,
+				D3524F3327D8970B00F24671 /* SignUpViewController.swift in Sources */,
+				D34FDD3628127C2D0072AB47 /* AboutController.swift in Sources */,
+				D350F2BF27D73FA90095997F /* SecondPlanetViewController.swift in Sources */,
+				D34FDD3928127C2D0072AB47 /* PlanetController.swift in Sources */,
+				D350F29C27D705DE0095997F /* AppDelegate.swift in Sources */,
+				D31BBE9E27EC67D5002C08FC /* SatelliteViewController.swift in Sources */,
+				D38B360B281133B1003D0B2C /* UniverseNode.swift in Sources */,
+				D31BBE9427EC666C002C08FC /* ConstellationViewController.swift in Sources */,
+				D38B3608281133AB003D0B2C /* PlanetModel.swift in Sources */,
+				D3A7942727E1BE46005E0F6F /* HomePageViewController.swift in Sources */,
+				D31BBE9B27EC67C9002C08FC /* NebulaViewController.swift in Sources */,
+				D350F29E27D705DE0095997F /* SceneDelegate.swift in Sources */,
+				D350F2C227D740650095997F /* LogInSignUpViewController.swift in Sources */,
+				D3135E9B27FEB5580026FD47 /* iOSDevCenters+GIF.swift in Sources */,
+				D350F2B927D719EF0095997F /* PlanetPageViewController.swift in Sources */,
+				D38B360528113395003D0B2C /* PlanetNodes.swift in Sources */,
+				D305AAD727FC1945009EC464 /* NebulaNewsTableViewCell.swift in Sources */,
+				D3142F2327FD53700003713D /* NebulaData.swift in Sources */,
+				D3A7943027E1C306005E0F6F /* SolarSystemPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D350F2AA27D705E10095997F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D350F2AB27D705E10095997F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D350F2AD27D705E10095997F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpaceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Himanshu.SpaceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D350F2AE27D705E10095997F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpaceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Himanshu.SpaceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D350F29327D705DE0095997F /* Build configuration list for PBXProject "The Martian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D350F2AA27D705E10095997F /* Debug */,
+				D350F2AB27D705E10095997F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D350F2AC27D705E10095997F /* Build configuration list for PBXNativeTarget "The Martian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D350F2AD27D705E10095997F /* Debug */,
+				D350F2AE27D705E10095997F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3A7943627E1CA74005E0F6F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3A7943727E1CA74005E0F6F /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A7943627E1CA74005E0F6F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D350F29027D705DE0095997F /* Project object */;
+}
