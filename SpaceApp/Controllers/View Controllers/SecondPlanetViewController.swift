@@ -17,13 +17,15 @@ class SecondPlanetViewController: UIViewController {
     }
     
     //MARK: - Implimenting Swipe Gesture
-    //In this function we will setup the Swipe Gesture
+    //In this function we will setup the Swipe Gesture which will swipe to Next and Previous Page
     func swipeGesture() {
+        //Next Page
         let gestureSwipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(_:)))
         gestureSwipeLeft.direction = .left
         skyViewImage.isUserInteractionEnabled = true
         skyViewImage.addGestureRecognizer(gestureSwipeLeft)
         
+        //Previous Page
         let gestureSwipeRight = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(_:)))
         gestureSwipeRight.direction = .right
         skyViewImage.addGestureRecognizer(gestureSwipeRight)

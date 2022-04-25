@@ -20,6 +20,7 @@ class DisplayDetailsNewsViewController: UIViewController {
         editImage()
     }
     
+    //MARK: - This will load the and display the gif in UIImageView
     func editImage() {
         newsImage.layer.cornerRadius = 8
         newsImage.layer.masksToBounds = true

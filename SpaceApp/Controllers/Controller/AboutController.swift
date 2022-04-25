@@ -9,8 +9,8 @@
 import UIKit
 
 class AboutController: UIViewController {
-
-
+    
+    
     @IBOutlet weak var logoApp: UIImageView!
     
     @IBOutlet weak var namaApp: UILabel!
@@ -29,7 +29,7 @@ class AboutController: UIViewController {
     
     @IBAction func toPlaneDetectionAction(_ sender: Any) {
         performSegue(withIdentifier: "toPlaneDetectionSegue", sender: self)
-            print("Plane Detection Button Pressed")
-}
+        print("Plane Detection Button Pressed")
+    }
 }
 

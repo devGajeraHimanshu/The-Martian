@@ -23,13 +23,7 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.isNavigationBarHidden = true
         callingEveryFunction()
-        gifImage()
-    }
-    
-    //MARK: - Gif Load in Image View
-    func gifImage() {
-        let jeremyGif = UIImage.gifImageWithName("starGif")
-        starAnimation.image = jeremyGif
+        
     }
     
     //MARK: - CALLING ALL THE FUNCTIONS
@@ -44,6 +38,13 @@ class HomePageViewController: UIViewController {
         astronomicalSection.layer.masksToBounds = true
         astronomicalNewsImage.layer.cornerRadius = 10
         astronomicalNewsImage.layer.masksToBounds = true
+        gifImage()
+    }
+    
+    //MARK: - This will load the and display the gif in UIImageView
+    func gifImage() {
+        let jeremyGif = UIImage.gifImageWithName("starGif")
+        starAnimation.image = jeremyGif
     }
     
     //MARK: - This function is used to edit the buttons.
@@ -59,8 +60,6 @@ class HomePageViewController: UIViewController {
     
     //This Button Action will root to Solar System page
     @IBAction func rootToSolarSystemPage(_ sender: UIButton) {
-//        navigateFunction(controllerName: "SolarSystemViewController")
-        
         let controller = storyboard?.instantiateViewController(withIdentifier: "ARViewViewController") as! ARViewViewController
         navigationController?.present(controller, animated: true, completion: nil)
     }

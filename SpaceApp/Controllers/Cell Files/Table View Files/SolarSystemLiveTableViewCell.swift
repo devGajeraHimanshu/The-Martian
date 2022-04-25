@@ -21,7 +21,7 @@ class SolarSystemLiveTableViewCell: UITableViewCell {
         gifImage()
     }
     
-    //MARK: - Gif Load in Image View
+    //MARK: - This will load the and display the gif in UIImageView
     func gifImage() {
         let jeremyGif = UIImage.gifImageWithName("starGif")
         starAnimation.image = jeremyGif

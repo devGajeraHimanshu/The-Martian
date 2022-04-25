@@ -12,8 +12,8 @@ class NewsPageViewController: UIViewController {
 
     //MARK: - IBOutlets
     @IBOutlet weak var spaceNewsTableView: UITableView!
-    
     @IBOutlet weak var starAnimation: UIImageView!
+    
     //MARK: - Variables
     var arrayOfSpaceNews: [AstronomicalNews] = [
         AstronomicalNews(newsImage: #imageLiteral(resourceName: "1JamesWebbTelescope"), newsInformation: "James Webb Space Telescope gets ready to gaze deep into the universe", spaceNewsInfo: """
@@ -74,7 +74,7 @@ class NewsPageViewController: UIViewController {
         gifImage()
     }
     
-    //MARK: - Gif Load in Image View
+    //MARK: - This will load the and display the gif in UIImageView
     func gifImage() {
         let jeremyGif = UIImage.gifImageWithName("starGif")
         starAnimation.image = jeremyGif

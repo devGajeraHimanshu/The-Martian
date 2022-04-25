@@ -18,7 +18,12 @@ class PlanetPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //MARK: - Functions Calling.
+        callingEveryFunction()
+    }
+    
+    //MARK: - CALLING ALL THE FUNCTIONS
+    func callingEveryFunction() {
         navigationController?.isNavigationBarHidden = true
         quotesLabel = flipTheText()
         swipeGesture()

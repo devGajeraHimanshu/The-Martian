@@ -17,13 +17,18 @@ class LogInSignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //MARK: - Functions Calling.
+        callingEveryFunction()
+    }
+    
+    //MARK: - CALLING ALL THE FUNCTIONS
+    func callingEveryFunction() {
         editButtons(button: signUpButton, cornerRadius: 15)
         editButtons(button: logInButton, cornerRadius: 15)
         gifImage()
     }
     
+    //MARK: - This will load the and display the gif in UIImageView
     func gifImage() {
         let jeremyGif = UIImage.gifImageWithName("starGif")
         starAnimation.image = jeremyGif
