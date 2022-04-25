@@ -5,8 +5,10 @@
 //
 //  Created by R&W
 //
+
 import UIKit
 import IQKeyboardManagerSwift
+import Firebase
 
 class SignUpViewController: UIViewController {
 
@@ -79,10 +81,18 @@ class SignUpViewController: UIViewController {
     
     //MARK: - This IBAction will navigation to Menu page.
     @IBAction func signUpButton(_ sender: UIButton) {
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        starAnimation.stopAnimating()
-        let homeTabBarViewController = storyBoard.instantiateViewController(withIdentifier: "HomeTabBarViewController") as! HomeTabBarViewController
-        navigationController?.pushViewController(homeTabBarViewController, animated: true)
+        if let email = enterYourEmail.text, let password = enterPassword.text {
+            
+            Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+                if let e = error {
+                    print(e)
+                } else {
+                    let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                    let homeTabBarViewController = storyBoard.instantiateViewController(withIdentifier: "HomeTabBarViewController") as! HomeTabBarViewController
+                    self.navigationController?.pushViewController(homeTabBarViewController, animated: true)
+                }
+            }
+        }
     }
     
 }

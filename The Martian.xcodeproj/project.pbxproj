@@ -18,7 +18,6 @@
 		D31BBE9B27EC67C9002C08FC /* NebulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BBE9A27EC67C9002C08FC /* NebulaViewController.swift */; };
 		D31BBE9E27EC67D5002C08FC /* SatelliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BBE9D27EC67D5002C08FC /* SatelliteViewController.swift */; };
 		D31BBEA727EC6ED4002C08FC /* ARPlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BBEA627EC6ED4002C08FC /* ARPlanetModel.swift */; };
-		D33DC3BA2816879F00DF70FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D33DC3B92816879F00DF70FD /* GoogleService-Info.plist */; };
 		D34FDD3528127C2D0072AB47 /* ARMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3028127C2D0072AB47 /* ARMenuController.swift */; };
 		D34FDD3628127C2D0072AB47 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3128127C2D0072AB47 /* AboutController.swift */; };
 		D34FDD3728127C2D0072AB47 /* UniverseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3228127C2D0072AB47 /* UniverseController.swift */; };
@@ -34,6 +33,7 @@
 		D3524F3327D8970B00F24671 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3524F3227D8970B00F24671 /* SignUpViewController.swift */; };
 		D3524F3627D8971700F24671 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3524F3527D8971700F24671 /* SignInViewController.swift */; };
 		D36BDDE927F2C4C600AC3857 /* SkyLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDDE827F2C4C600AC3857 /* SkyLive.swift */; };
+		D36E1FB3281695A600A148D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D36E1FB2281695A600A148D9 /* GoogleService-Info.plist */; };
 		D3793C5D2800290F004E7ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3793C5C2800290F004E7ED6 /* Main.storyboard */; };
 		D3793C5F28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3793C5E28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift */; };
 		D38B35E928113287003D0B2C /* textures.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B35E828113287003D0B2C /* textures.scnassets */; };
@@ -50,9 +50,12 @@
 		D3C8D1FC27FAA860008190FE /* SpaceNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8D1FA27FAA860008190FE /* SpaceNewsTableViewCell.swift */; };
 		D3C8D1FD27FAA860008190FE /* ConstellationNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C8D1FB27FAA860008190FE /* ConstellationNewsTableViewCell.xib */; };
 		D3C8D20527FAC7AB008190FE /* DisplayDetailsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8D20427FAC7AB008190FE /* DisplayDetailsNewsViewController.swift */; };
+		FE7896EBC8080BD6955FE929 /* Pods_The_Martian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC4CA47875CBA13ED150FC5 /* Pods_The_Martian.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BC4CA47875CBA13ED150FC5 /* Pods_The_Martian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Martian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A54A685BCCF77C189342D6 /* Pods-The Martian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Martian.release.xcconfig"; path = "Target Support Files/Pods-The Martian/Pods-The Martian.release.xcconfig"; sourceTree = "<group>"; };
 		D305AAD527FC1945009EC464 /* NebulaNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaNewsTableViewCell.swift; sourceTree = "<group>"; };
 		D305AAD627FC1945009EC464 /* NebulaNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NebulaNewsTableViewCell.xib; sourceTree = "<group>"; };
 		D3135E9A27FEB5580026FD47 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
@@ -64,7 +67,6 @@
 		D31BBE9A27EC67C9002C08FC /* NebulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaViewController.swift; sourceTree = "<group>"; };
 		D31BBE9D27EC67D5002C08FC /* SatelliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteViewController.swift; sourceTree = "<group>"; };
 		D31BBEA627EC6ED4002C08FC /* ARPlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPlanetModel.swift; sourceTree = "<group>"; };
-		D33DC3B92816879F00DF70FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D34FDD3028127C2D0072AB47 /* ARMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMenuController.swift; sourceTree = "<group>"; };
 		D34FDD3128127C2D0072AB47 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
 		D34FDD3228127C2D0072AB47 /* UniverseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		D3524F3227D8970B00F24671 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D3524F3527D8971700F24671 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D36BDDE827F2C4C600AC3857 /* SkyLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyLive.swift; sourceTree = "<group>"; };
+		D36E1FB2281695A600A148D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D3793C5C2800290F004E7ED6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D3793C5E28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaSingleInfoViewController.swift; sourceTree = "<group>"; };
 		D38B35E828113287003D0B2C /* textures.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = textures.scnassets; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 		D3C8D1FA27FAA860008190FE /* SpaceNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNewsTableViewCell.swift; sourceTree = "<group>"; };
 		D3C8D1FB27FAA860008190FE /* ConstellationNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConstellationNewsTableViewCell.xib; sourceTree = "<group>"; };
 		D3C8D20427FAC7AB008190FE /* DisplayDetailsNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDetailsNewsViewController.swift; sourceTree = "<group>"; };
+		FB1B54CF20397736EDC0A341 /* Pods-The Martian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Martian.debug.xcconfig"; path = "Target Support Files/Pods-The Martian/Pods-The Martian.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +109,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A7943827E1CA74005E0F6F /* IQKeyboardManagerSwift in Frameworks */,
+				FE7896EBC8080BD6955FE929 /* Pods_The_Martian.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0293D9255083E1A8DD7CE016 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB1B54CF20397736EDC0A341 /* Pods-The Martian.debug.xcconfig */,
+				77A54A685BCCF77C189342D6 /* Pods-The Martian.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8763094F878518F4F039C4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4CA47875CBA13ED150FC5 /* Pods_The_Martian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D313887B27E2F3870093F9D3 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +190,8 @@
 			children = (
 				D350F29A27D705DE0095997F /* SpaceApp */,
 				D350F29927D705DE0095997F /* Products */,
+				0293D9255083E1A8DD7CE016 /* Pods */,
+				8763094F878518F4F039C4C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,7 +214,7 @@
 				D350F2B027D713960095997F /* Controllers */,
 				D3524F3827D89F6C00F24671 /* Animations */,
 				D350F2A427D705E10095997F /* Assets.xcassets */,
-				D33DC3B92816879F00DF70FD /* GoogleService-Info.plist */,
+				D36E1FB2281695A600A148D9 /* GoogleService-Info.plist */,
 				D350F2A927D705E10095997F /* Info.plist */,
 			);
 			path = SpaceApp;
@@ -288,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D350F2AC27D705E10095997F /* Build configuration list for PBXNativeTarget "The Martian" */;
 			buildPhases = (
+				99918D98ED84B68FED3F7F68 /* [CP] Check Pods Manifest.lock */,
 				D350F29427D705DE0095997F /* Sources */,
 				D350F29527D705DE0095997F /* Frameworks */,
 				D350F29627D705DE0095997F /* Resources */,
+				1A08467944F0A5B316B9BD87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3793C5D2800290F004E7ED6 /* Main.storyboard in Resources */,
-				D33DC3BA2816879F00DF70FD /* GoogleService-Info.plist in Resources */,
+				D36E1FB3281695A600A148D9 /* GoogleService-Info.plist in Resources */,
 				D305AAD827FC1945009EC464 /* NebulaNewsTableViewCell.xib in Resources */,
 				D38B35E928113287003D0B2C /* textures.scnassets in Resources */,
 				D350F2A527D705E10095997F /* Assets.xcassets in Resources */,
@@ -356,6 +382,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A08467944F0A5B316B9BD87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Martian/Pods-The Martian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Martian/Pods-The Martian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Martian/Pods-The Martian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99918D98ED84B68FED3F7F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Martian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D350F29427D705DE0095997F /* Sources */ = {
@@ -520,6 +588,7 @@
 		};
 		D350F2AD27D705E10095997F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1B54CF20397736EDC0A341 /* Pods-The Martian.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -538,6 +607,7 @@
 		};
 		D350F2AE27D705E10095997F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A54A685BCCF77C189342D6 /* Pods-The Martian.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

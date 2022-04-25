@@ -5,8 +5,10 @@
 //
 //  Created by R&W
 //
+
 import UIKit
 import IQKeyboardManagerSwift
+import Firebase
 
 class SignInViewController: UIViewController, UITextFieldDelegate {
 
@@ -77,10 +79,20 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - IBAction for Navigation to Menu Page
     @IBAction func navigateSignInToMenu(_ sender: UIButton) {
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        starAnimation.stopAnimating()
-        let homeTabBarViewController = storyBoard.instantiateViewController(withIdentifier: "HomeTabBarViewController") as! HomeTabBarViewController
-        navigationController?.pushViewController(homeTabBarViewController, animated: true)
+        
+        if let email = enterEmail.text, let password = enterPassword.text {
+            
+            Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                if let e = error {
+                    print(e.localizedDescription)
+                } else {
+                    let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                    let homeTabBarViewController = storyBoard.instantiateViewController(withIdentifier: "HomeTabBarViewController") as! HomeTabBarViewController
+                    self.navigationController?.pushViewController(homeTabBarViewController, animated: true)
+                }
+            }
+        }
+        
     }
     
 }

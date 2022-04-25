@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>709843350231-0ls3klqhjatt1hvv0r7bse50c2gpg24o.apps.googleusercontent.com</string>
+	<string>194947623845-61qfcjljadldh9nf31sb6mn5p4j3t3mj.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.709843350231-0ls3klqhjatt1hvv0r7bse50c2gpg24o</string>
+	<string>com.googleusercontent.apps.194947623845-61qfcjljadldh9nf31sb6mn5p4j3t3mj</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDWwrh-QO70KKovpsvfkXQ4u1F2h0r0fWQ</string>
+	<string>AIzaSyA4xs4XaF9HTb2rbWEjyZsxJuIjkxb4lUw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>709843350231</string>
+	<string>194947623845</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.disha.FireBase</string>
+	<string>Himanshu.SpaceApp</string>
 	<key>PROJECT_ID</key>
-	<string>fir-25cd2</string>
+	<string>the-martian---space-app</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-25cd2.appspot.com</string>
+	<string>the-martian---space-app.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:709843350231:ios:0aa9344071bd630dc23692</string>
+	<string>1:194947623845:ios:5253c9acd9bd635492164c</string>
 </dict>
 </plist>
