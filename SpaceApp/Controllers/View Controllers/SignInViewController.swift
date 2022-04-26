@@ -110,4 +110,16 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    //MARK: - Sign in as Guest Mode
+    @IBAction func signInWithoutAccount(_ sender: UIButton) {
+        Auth.auth().signInAnonymously { authResult, error in
+            if let e = error {
+                print(e.localizedDescription)
+            } else {
+                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let homeTabBarViewController = storyBoard.instantiateViewController(withIdentifier: "HomeTabBarViewController") as! HomeTabBarViewController
+                self.navigationController?.pushViewController(homeTabBarViewController, animated: true)
+            }
+        }
+    }
 }
