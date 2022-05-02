@@ -37,10 +37,10 @@
 		D3793C5D2800290F004E7ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3793C5C2800290F004E7ED6 /* Main.storyboard */; };
 		D3793C5F28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3793C5E28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift */; };
 		D38B35E928113287003D0B2C /* textures.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B35E828113287003D0B2C /* textures.scnassets */; };
-		D38B360528113395003D0B2C /* PlanetNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B360428113395003D0B2C /* PlanetNodes.swift */; };
-		D38B3608281133AB003D0B2C /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B3607281133AB003D0B2C /* PlanetModel.swift */; };
-		D38B360B281133B1003D0B2C /* UniverseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B360A281133B1003D0B2C /* UniverseNode.swift */; };
-		D38B360E281133B7003D0B2C /* UniverseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B360D281133B7003D0B2C /* UniverseModel.swift */; };
+		D3928181281FACEF0036FB4C /* PlanetNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3928180281FACEF0036FB4C /* PlanetNodes.swift */; };
+		D3928183281FAD070036FB4C /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3928182281FAD070036FB4C /* PlanetModel.swift */; };
+		D3928185281FAD1B0036FB4C /* UniverseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3928184281FAD1B0036FB4C /* UniverseNode.swift */; };
+		D3928187281FAD300036FB4C /* UniverseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3928186281FAD300036FB4C /* UniverseModel.swift */; };
 		D3A7942727E1BE46005E0F6F /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7942627E1BE46005E0F6F /* HomePageViewController.swift */; };
 		D3A7942A27E1C1CA005E0F6F /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7942927E1C1CA005E0F6F /* HomeTabBarViewController.swift */; };
 		D3A7942D27E1C2F0005E0F6F /* NewsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7942C27E1C2EF005E0F6F /* NewsPageViewController.swift */; };
@@ -88,10 +88,10 @@
 		D3793C5C2800290F004E7ED6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D3793C5E28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaSingleInfoViewController.swift; sourceTree = "<group>"; };
 		D38B35E828113287003D0B2C /* textures.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = textures.scnassets; sourceTree = "<group>"; };
-		D38B360428113395003D0B2C /* PlanetNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetNodes.swift; sourceTree = "<group>"; };
-		D38B3607281133AB003D0B2C /* PlanetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
-		D38B360A281133B1003D0B2C /* UniverseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseNode.swift; sourceTree = "<group>"; };
-		D38B360D281133B7003D0B2C /* UniverseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniverseModel.swift; sourceTree = "<group>"; };
+		D3928180281FACEF0036FB4C /* PlanetNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNodes.swift; sourceTree = "<group>"; };
+		D3928182281FAD070036FB4C /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		D3928184281FAD1B0036FB4C /* UniverseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseNode.swift; sourceTree = "<group>"; };
+		D3928186281FAD300036FB4C /* UniverseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseModel.swift; sourceTree = "<group>"; };
 		D3A7942627E1BE46005E0F6F /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		D3A7942927E1C1CA005E0F6F /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		D3A7942C27E1C2EF005E0F6F /* NewsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageViewController.swift; sourceTree = "<group>"; };
@@ -268,10 +268,10 @@
 		D38B360228113382003D0B2C /* ARPLanets */ = {
 			isa = PBXGroup;
 			children = (
-				D38B360428113395003D0B2C /* PlanetNodes.swift */,
-				D38B3607281133AB003D0B2C /* PlanetModel.swift */,
-				D38B360A281133B1003D0B2C /* UniverseNode.swift */,
-				D38B360D281133B7003D0B2C /* UniverseModel.swift */,
+				D3928180281FACEF0036FB4C /* PlanetNodes.swift */,
+				D3928182281FAD070036FB4C /* PlanetModel.swift */,
+				D3928184281FAD1B0036FB4C /* UniverseNode.swift */,
+				D3928186281FAD300036FB4C /* UniverseModel.swift */,
 			);
 			path = ARPLanets;
 			sourceTree = "<group>";
@@ -431,9 +431,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A7942A27E1C1CA005E0F6F /* HomeTabBarViewController.swift in Sources */,
+				D3928183281FAD070036FB4C /* PlanetModel.swift in Sources */,
 				D3C8D20527FAC7AB008190FE /* DisplayDetailsNewsViewController.swift in Sources */,
-				D38B360E281133B7003D0B2C /* UniverseModel.swift in Sources */,
 				D3C8D1F127FAA1E7008190FE /* ConstellationNewsData.swift in Sources */,
+				D3928185281FAD1B0036FB4C /* UniverseNode.swift in Sources */,
 				D34FDD3828127C2D0072AB47 /* PlaneDetectionController.swift in Sources */,
 				D3793C5F28002EF5004E7ED6 /* NebulaSingleInfoViewController.swift in Sources */,
 				D3C8D1FC27FAA860008190FE /* SpaceNewsTableViewCell.swift in Sources */,
@@ -451,17 +452,16 @@
 				D34FDD3928127C2D0072AB47 /* PlanetController.swift in Sources */,
 				D350F29C27D705DE0095997F /* AppDelegate.swift in Sources */,
 				D31BBE9E27EC67D5002C08FC /* SatelliteViewController.swift in Sources */,
-				D38B360B281133B1003D0B2C /* UniverseNode.swift in Sources */,
 				D31BBE9427EC666C002C08FC /* ConstellationViewController.swift in Sources */,
-				D38B3608281133AB003D0B2C /* PlanetModel.swift in Sources */,
 				D3A7942727E1BE46005E0F6F /* HomePageViewController.swift in Sources */,
 				D31BBE9B27EC67C9002C08FC /* NebulaViewController.swift in Sources */,
 				D350F29E27D705DE0095997F /* SceneDelegate.swift in Sources */,
 				D350F2C227D740650095997F /* LogInSignUpViewController.swift in Sources */,
 				D3135E9B27FEB5580026FD47 /* iOSDevCenters+GIF.swift in Sources */,
+				D3928187281FAD300036FB4C /* UniverseModel.swift in Sources */,
 				D350F2B927D719EF0095997F /* PlanetPageViewController.swift in Sources */,
-				D38B360528113395003D0B2C /* PlanetNodes.swift in Sources */,
 				D305AAD727FC1945009EC464 /* NebulaNewsTableViewCell.swift in Sources */,
+				D3928181281FACEF0036FB4C /* PlanetNodes.swift in Sources */,
 				D3142F2327FD53700003713D /* NebulaData.swift in Sources */,
 				D3A7943027E1C306005E0F6F /* SolarSystemPageViewController.swift in Sources */,
 			);

@@ -1,11 +1,11 @@
 //
-//  ARViewViewController.swift
-//  SpaceApp
-//  Himanshu Gajera
+//  PlanetModel.swift
+//  The Martian
 //
-//  Created by R&W
+//  Created by R&W on 02/05/22.
 //
 
+import Foundation
 import UIKit
 import SceneKit
 import ARKit
@@ -61,3 +61,4 @@ struct PlanetDescription {
                    
 ]
 }
+

@@ -734,11 +734,10 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gA-i1-a4Y">
-                                <rect key="frame" x="92" y="703" width="230" height="60"/>
+                                <rect key="frame" x="92" y="704.33333333333337" width="230" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="OrT-qZ-bJc"/>
-                                    <constraint firstAttribute="width" constant="230" id="eM4-Vt-kYr"/>
+                                    <constraint firstAttribute="height" constant="60" id="esr-XY-zF5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Sign In">
@@ -749,10 +748,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="N8r-ia-9Ns">
-                                <rect key="frame" x="35" y="541" width="344" height="112"/>
+                                <rect key="frame" x="40" y="539.33333333333337" width="334" height="120"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="AaZ-sM-NVc">
-                                        <rect key="frame" x="0.0" y="0.0" width="344" height="48.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="52.666666666666664"/>
                                         <color key="backgroundColor" red="0.31369501350000001" green="0.3137452006" blue="0.32152622939999997" alpha="0.74676262842465757" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <accessibility key="accessibilityConfiguration">
@@ -763,7 +762,7 @@
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BLB-sV-VmL">
-                                        <rect key="frame" x="0.0" y="63.666666666666629" width="344" height="48.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="67.666666666666629" width="334" height="52.333333333333343"/>
                                         <color key="backgroundColor" red="0.2431126535" green="0.24315324429999999" blue="0.25094592570000002" alpha="0.75251498287671237" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -771,10 +770,12 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="UHT-5V-PJi"/>
+                                </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leP-TD-HOV">
-                                <rect key="frame" x="243" y="661" width="136" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leP-TD-HOV">
+                                <rect key="frame" x="119" y="772" width="177" height="30"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign in as guest?">
@@ -788,22 +789,25 @@
                         <viewLayoutGuide key="safeArea" id="0xh-Mz-9fU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="0xh-Mz-9fU" firstAttribute="trailing" secondItem="2gA-i1-a4Y" secondAttribute="trailing" constant="92" id="2NG-u0-kzV"/>
                             <constraint firstItem="4V5-Z8-1GO" firstAttribute="trailing" secondItem="0xh-Mz-9fU" secondAttribute="trailing" id="4pL-iS-Fsk"/>
-                            <constraint firstItem="N8r-ia-9Ns" firstAttribute="top" secondItem="HMw-yS-PuN" secondAttribute="bottom" constant="25" id="FtZ-Op-1Z2"/>
+                            <constraint firstItem="2gA-i1-a4Y" firstAttribute="leading" secondItem="0xh-Mz-9fU" secondAttribute="leading" constant="92" id="5ee-jz-Zkb"/>
+                            <constraint firstItem="0xh-Mz-9fU" firstAttribute="bottom" secondItem="leP-TD-HOV" secondAttribute="bottom" constant="60" id="6gP-n8-BMN"/>
                             <constraint firstItem="4V5-Z8-1GO" firstAttribute="top" secondItem="p1v-AJ-qqx" secondAttribute="top" id="G70-Wp-Z4i"/>
-                            <constraint firstItem="0xh-Mz-9fU" firstAttribute="trailing" secondItem="N8r-ia-9Ns" secondAttribute="trailing" constant="35" id="HvM-4W-cs0"/>
+                            <constraint firstItem="leP-TD-HOV" firstAttribute="top" secondItem="2gA-i1-a4Y" secondAttribute="bottom" constant="8" id="IKg-lM-mPS"/>
+                            <constraint firstItem="0xh-Mz-9fU" firstAttribute="trailing" secondItem="leP-TD-HOV" secondAttribute="trailing" constant="118" id="KH5-PT-Msb"/>
+                            <constraint firstItem="0xh-Mz-9fU" firstAttribute="trailing" secondItem="N8r-ia-9Ns" secondAttribute="trailing" constant="40" id="LyR-0u-Wib"/>
+                            <constraint firstItem="2gA-i1-a4Y" firstAttribute="top" secondItem="N8r-ia-9Ns" secondAttribute="bottom" constant="45" id="NTu-I6-JXf"/>
                             <constraint firstItem="HMw-yS-PuN" firstAttribute="centerX" secondItem="p1v-AJ-qqx" secondAttribute="centerX" id="Sgg-VD-DA7"/>
                             <constraint firstItem="9Pk-pD-OD5" firstAttribute="top" secondItem="0xh-Mz-9fU" secondAttribute="top" constant="373" id="VhJ-mz-q2Z"/>
                             <constraint firstItem="0xh-Mz-9fU" firstAttribute="trailing" secondItem="9Pk-pD-OD5" secondAttribute="trailing" constant="105" id="YuW-rI-6Rp"/>
                             <constraint firstItem="bJZ-OC-cD6" firstAttribute="top" secondItem="0xh-Mz-9fU" secondAttribute="top" constant="294" id="ZWW-j1-4Vw"/>
+                            <constraint firstItem="N8r-ia-9Ns" firstAttribute="leading" secondItem="0xh-Mz-9fU" secondAttribute="leading" constant="40" id="aLv-Iq-bGn"/>
                             <constraint firstItem="HMw-yS-PuN" firstAttribute="top" secondItem="0xh-Mz-9fU" secondAttribute="top" constant="197" id="aTB-vW-EWd"/>
                             <constraint firstAttribute="bottom" secondItem="4V5-Z8-1GO" secondAttribute="bottom" id="cHD-bS-k5o"/>
-                            <constraint firstItem="N8r-ia-9Ns" firstAttribute="leading" secondItem="0xh-Mz-9fU" secondAttribute="leading" constant="35" id="dvd-XN-Jus"/>
-                            <constraint firstItem="0xh-Mz-9fU" firstAttribute="bottom" secondItem="2gA-i1-a4Y" secondAttribute="bottom" constant="99" id="jhr-PK-WQt"/>
-                            <constraint firstItem="2gA-i1-a4Y" firstAttribute="centerX" secondItem="p1v-AJ-qqx" secondAttribute="centerX" id="mwr-bi-7We"/>
                             <constraint firstItem="0xh-Mz-9fU" firstAttribute="trailing" secondItem="bJZ-OC-cD6" secondAttribute="trailing" constant="183" id="qcc-sZ-O2J"/>
+                            <constraint firstItem="leP-TD-HOV" firstAttribute="leading" secondItem="0xh-Mz-9fU" secondAttribute="leading" constant="119" id="tIK-If-Wdx"/>
                             <constraint firstItem="4V5-Z8-1GO" firstAttribute="leading" secondItem="0xh-Mz-9fU" secondAttribute="leading" id="uUZ-uF-xvE"/>
-                            <constraint firstItem="2gA-i1-a4Y" firstAttribute="top" secondItem="N8r-ia-9Ns" secondAttribute="bottom" constant="50" id="xOq-SW-2vs"/>
                         </constraints>
                     </view>
                     <connections>
